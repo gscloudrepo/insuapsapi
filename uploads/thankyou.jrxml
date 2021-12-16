@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.2.final using JasperReports Library version 6.12.2-75c5e90a222ab406e416cbf590a5397028a52de3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="private_car" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="54476af8-2bdc-493e-8000-1c61a7554f75">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.xml"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="producer_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="producer_name"/>
+		<fieldDescription><![CDATA[producer_name]]></fieldDescription>
+	</field>
+	<field name="producer_mobile" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="producer_mobile"/>
+		<fieldDescription><![CDATA[producer_mobile]]></fieldDescription>
+	</field>
+	<field name="producer_email" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="producer_email"/>
+		<fieldDescription><![CDATA[producer_email]]></fieldDescription>
+	</field>
+	<variable name="company_name" class="java.lang.String"/>
+	<pageHeader>
+		<band height="802" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="10" y="480" width="534" height="18" forecolor="#000000" uuid="dde34094-7449-489c-ae0d-608fcf473034">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Serif" size="14" isBold="true" isItalic="false" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Insurance is the subject matter of the solicitation."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="9" y="538" width="535" height="57" uuid="807f29a0-dfff-465c-a670-22ba3bd23024"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Disclaimer: These above Presentation / Slides / Graphics are created by Go Software for educational purpose only. Please confirm the features and benefits with insurance company. Please seek the advice of your Insurance Advisor if you require any further information or clarification."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="11" y="262" width="535" height="27" uuid="3f81fad1-ccc3-41ef-b486-dc15d6742652"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Producer Name"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="11" y="289" width="535" height="23" forecolor="#0000FF" uuid="59e7463d-8276-45ee-91b6-3963c320f0d0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="false" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{producer_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="11" y="339" width="535" height="23" forecolor="#0000FF" uuid="f2677efd-34b2-4870-8b75-72eadb962680">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{producer_mobile}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="11" y="389" width="535" height="23" forecolor="#0000FF" uuid="359fde7a-2171-4deb-97c9-d625df1c9d34">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{producer_email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="9" y="595" width="535" height="54" uuid="a934f0c3-1dd6-4f4a-9e1a-c77f1b1f9b12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Go Software is a software development company. Go Software directly or indirectly not associates with any insurance company or insurance business. Go Software is not responsible for any misuse or wrong presentation of the above Presentation / Slides / Graphics."]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="0" width="555" height="1" uuid="dd487076-dd4e-4d9f-888c-99cee064d126">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="0" width="1" height="802" uuid="93ddfc3e-d862-4f3e-9c62-4bf450fa7fa0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="555" y="0" width="1" height="802" uuid="3baccd3f-487e-4b32-822c-55bbf6f845a9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<image>
+				<reportElement x="24" y="92" width="511" height="87" uuid="fd6f94a4-c943-47af-a57c-41b454681296">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["http://18.191.180.147/motorpronew/companylogos/thankyou.jpg"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="0" y="801" width="555" height="1" uuid="03362fb2-fac8-45eb-b9e6-8e71960a29cd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="11" y="312" width="535" height="27" uuid="a22e4fdb-f304-4226-b8cd-1bfcfccf8d52"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Mobile Number"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="11" y="362" width="535" height="27" uuid="cd9bddb9-01f3-4134-8bcb-8bbffbee18ff"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Email Id"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+</jasperReport>

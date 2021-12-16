@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.2.final using JasperReports Library version 6.12.2-75c5e90a222ab406e416cbf590a5397028a52de3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="private_car" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="54476af8-2bdc-493e-8000-1c61a7554f75">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.xml"/>
+	<queryString language="JSON">
+		<![CDATA[non_elec_acc]]>
+	</queryString>
+	<field name="id" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="company_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="company_name"/>
+		<fieldDescription><![CDATA[company_name]]></fieldDescription>
+	</field>
+	<field name="customername" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="customername"/>
+		<fieldDescription><![CDATA[customername]]></fieldDescription>
+	</field>
+	<field name="u_reg_no" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_reg_no"/>
+		<fieldDescription><![CDATA[u_reg_no]]></fieldDescription>
+	</field>
+	<field name="regloc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="regloc"/>
+		<fieldDescription><![CDATA[regloc]]></fieldDescription>
+	</field>
+	<field name="datee" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="datee"/>
+		<fieldDescription><![CDATA[datee]]></fieldDescription>
+	</field>
+	<field name="u_make" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_make"/>
+		<fieldDescription><![CDATA[u_make]]></fieldDescription>
+	</field>
+	<field name="u_model" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_model"/>
+		<fieldDescription><![CDATA[u_model]]></fieldDescription>
+	</field>
+	<field name="u_variant" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_variant"/>
+		<fieldDescription><![CDATA[u_variant]]></fieldDescription>
+	</field>
+	<field name="u_psd" class="java.util.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_psd"/>
+		<fieldDescription><![CDATA[u_psd]]></fieldDescription>
+	</field>
+	<field name="u_ped" class="java.util.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_ped"/>
+		<fieldDescription><![CDATA[u_ped]]></fieldDescription>
+	</field>
+	<field name="u_oc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_oc"/>
+		<fieldDescription><![CDATA[u_oc]]></fieldDescription>
+	</field>
+	<field name="u_sc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="u_sc"/>
+		<fieldDescription><![CDATA[u_sc]]></fieldDescription>
+	</field>
+	<field name="cc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cc"/>
+		<fieldDescription><![CDATA[cc]]></fieldDescription>
+	</field>
+	<field name="fuel" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fuel"/>
+		<fieldDescription><![CDATA[fuel]]></fieldDescription>
+	</field>
+	<field name="yom" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="yom"/>
+		<fieldDescription><![CDATA[yom]]></fieldDescription>
+	</field>
+	<field name="idv1" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="idv1"/>
+		<fieldDescription><![CDATA[idv1]]></fieldDescription>
+	</field>
+	<field name="idv" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="idv"/>
+		<fieldDescription><![CDATA[idv]]></fieldDescription>
+	</field>
+	<field name="depre" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="depre"/>
+		<fieldDescription><![CDATA[depre]]></fieldDescription>
+	</field>
+	<field name="tppd" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="tppd"/>
+		<fieldDescription><![CDATA[tppd]]></fieldDescription>
+	</field>
+	<field name="vbr" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="vbr"/>
+		<fieldDescription><![CDATA[vbr]]></fieldDescription>
+	</field>
+	<field name="zone" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="zone"/>
+		<fieldDescription><![CDATA[zone]]></fieldDescription>
+	</field>
+	<field name="nop" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nop"/>
+		<fieldDescription><![CDATA[nop]]></fieldDescription>
+	</field>
+	<field name="av" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="av"/>
+		<fieldDescription><![CDATA[av]]></fieldDescription>
+	</field>
+	<field name="cng_yn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cng_yn"/>
+		<fieldDescription><![CDATA[cng_yn]]></fieldDescription>
+	</field>
+	<field name="extcng" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="extcng"/>
+		<fieldDescription><![CDATA[extcng]]></fieldDescription>
+	</field>
+	<field name="ncb_per" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ncb_per"/>
+		<fieldDescription><![CDATA[ncb_per]]></fieldDescription>
+	</field>
+	<field name="pa" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pa"/>
+		<fieldDescription><![CDATA[pa]]></fieldDescription>
+	</field>
+	<field name="ll" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ll"/>
+		<fieldDescription><![CDATA[ll]]></fieldDescription>
+	</field>
+	<field name="rtppd" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="rtppd"/>
+		<fieldDescription><![CDATA[rtppd]]></fieldDescription>
+	</field>
+	<field name="other_cess_per" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="other_cess_per"/>
+		<fieldDescription><![CDATA[other_cess_per]]></fieldDescription>
+	</field>
+	<field name="basic_liability" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="basic_liability"/>
+		<fieldDescription><![CDATA[basic_liability]]></fieldDescription>
+	</field>
+	<field name="pc" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="pc"/>
+		<fieldDescription><![CDATA[pc]]></fieldDescription>
+	</field>
+	<field name="leadname" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="leadname"/>
+		<fieldDescription><![CDATA[leadname]]></fieldDescription>
+	</field>
+	<field name="cng_kit" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="cng_kit"/>
+		<fieldDescription><![CDATA[cng_kit]]></fieldDescription>
+	</field>
+	<field name="bv" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="bv"/>
+		<fieldDescription><![CDATA[bv]]></fieldDescription>
+	</field>
+	<field name="cng" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="cng"/>
+		<fieldDescription><![CDATA[cng]]></fieldDescription>
+	</field>
+	<field name="basic_od_premium" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="basic_od_premium"/>
+		<fieldDescription><![CDATA[basic_od_premium]]></fieldDescription>
+	</field>
+	<field name="imt" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="imt"/>
+		<fieldDescription><![CDATA[imt]]></fieldDescription>
+	</field>
+	<field name="imt23_yn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="imt23_yn"/>
+		<fieldDescription><![CDATA[imt23_yn]]></fieldDescription>
+	</field>
+	<field name="bodbd" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="bodbd"/>
+		<fieldDescription><![CDATA[bodbd]]></fieldDescription>
+	</field>
+	<field name="doodp" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="doodp"/>
+		<fieldDescription><![CDATA[doodp]]></fieldDescription>
+	</field>
+	<field name="loodp" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="loodp"/>
+		<fieldDescription><![CDATA[loodp]]></fieldDescription>
+	</field>
+	<field name="bodbncb" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="bodbncb"/>
+		<fieldDescription><![CDATA[bodbncb]]></fieldDescription>
+	</field>
+	<field name="no_claim" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="no_claim"/>
+		<fieldDescription><![CDATA[no_claim]]></fieldDescription>
+	</field>
+	<field name="no_claim_val" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="no_claim_val"/>
+		<fieldDescription><![CDATA[no_claim_val]]></fieldDescription>
+	</field>
+	<field name="net_a" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="net_a"/>
+		<fieldDescription><![CDATA[net_a]]></fieldDescription>
+	</field>
+	<field name="total_liability" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="total_liability"/>
+		<fieldDescription><![CDATA[total_liability]]></fieldDescription>
+	</field>
+	<field name="premium_before_gst" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="premium_before_gst"/>
+		<fieldDescription><![CDATA[premium_before_gst]]></fieldDescription>
+	</field>
+	<field name="gst_cal" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="gst_cal"/>
+		<fieldDescription><![CDATA[gst_cal]]></fieldDescription>
+	</field>
+	<field name="other_cess" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="other_cess"/>
+		<fieldDescription><![CDATA[other_cess]]></fieldDescription>
+	</field>
+	<field name="premium_after_gst" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="premium_after_gst"/>
+		<fieldDescription><![CDATA[premium_after_gst]]></fieldDescription>
+	</field>
+	<field name="odt" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="odt"/>
+		<fieldDescription><![CDATA[odt]]></fieldDescription>
+	</field>
+	<field name="tpt" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="tpt"/>
+		<fieldDescription><![CDATA[tpt]]></fieldDescription>
+	</field>
+	<field name="agev" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="agev"/>
+		<fieldDescription><![CDATA[agev]]></fieldDescription>
+	</field>
+	<field name="report_name1" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="report_name1"/>
+		<fieldDescription><![CDATA[report_name1]]></fieldDescription>
+	</field>
+	<field name="report_name2" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="report_name2"/>
+		<fieldDescription><![CDATA[report_name2]]></fieldDescription>
+	</field>
+	<field name="policy_type" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="policy_type"/>
+		<fieldDescription><![CDATA[policy_type]]></fieldDescription>
+	</field>
+	<field name="zerodep" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="zerodep"/>
+		<fieldDescription><![CDATA[zerodep]]></fieldDescription>
+	</field>
+	<field name="rsa_chk" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="rsa_chk"/>
+		<fieldDescription><![CDATA[rsa_chk]]></fieldDescription>
+	</field>
+	<field name="con" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="con"/>
+		<fieldDescription><![CDATA[con]]></fieldDescription>
+	</field>
+	<field name="ecover" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ecover"/>
+		<fieldDescription><![CDATA[ecover]]></fieldDescription>
+	</field>
+	<field name="ncbprotect" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ncbprotect"/>
+		<fieldDescription><![CDATA[ncbprotect]]></fieldDescription>
+	</field>
+	<field name="typecover" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="typecover"/>
+		<fieldDescription><![CDATA[typecover]]></fieldDescription>
+	</field>
+	<field name="lossofkeys" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="lossofkeys"/>
+		<fieldDescription><![CDATA[lossofkeys]]></fieldDescription>
+	</field>
+	<field name="cuc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cuc"/>
+		<fieldDescription><![CDATA[cuc]]></fieldDescription>
+	</field>
+	<field name="sc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="sc"/>
+		<fieldDescription><![CDATA[sc]]></fieldDescription>
+	</field>
+	<field name="roi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="roi"/>
+		<fieldDescription><![CDATA[roi]]></fieldDescription>
+	</field>
+	<field name="mc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="mc"/>
+		<fieldDescription><![CDATA[mc]]></fieldDescription>
+	</field>
+	<field name="dc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dc"/>
+		<fieldDescription><![CDATA[dc]]></fieldDescription>
+	</field>
+	<field name="rtc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="rtc"/>
+		<fieldDescription><![CDATA[rtc]]></fieldDescription>
+	</field>
+	<field name="at" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="at"/>
+		<fieldDescription><![CDATA[at]]></fieldDescription>
+	</field>
+	<field name="vas" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="vas"/>
+		<fieldDescription><![CDATA[vas]]></fieldDescription>
+	</field>
+	<field name="imt23" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="imt23"/>
+		<fieldDescription><![CDATA[imt23]]></fieldDescription>
+	</field>
+	<field name="antitheft_yn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="antitheft_yn"/>
+		<fieldDescription><![CDATA[antitheft_yn]]></fieldDescription>
+	</field>
+	<field name="addon" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="addon"/>
+		<fieldDescription><![CDATA[addon]]></fieldDescription>
+	</field>
+	<field name="valueadd" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="valueadd"/>
+		<fieldDescription><![CDATA[valueadd]]></fieldDescription>
+	</field>
+	<field name="total_addon" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="total_addon"/>
+		<fieldDescription><![CDATA[total_addon]]></fieldDescription>
+	</field>
+	<field name="antitheft" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="antitheft"/>
+		<fieldDescription><![CDATA[antitheft]]></fieldDescription>
+	</field>
+	<field name="av_val" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="av_val"/>
+		<fieldDescription><![CDATA[av_val]]></fieldDescription>
+	</field>
+	<field name="doodp_val" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="doodp_val"/>
+		<fieldDescription><![CDATA[doodp_val]]></fieldDescription>
+	</field>
+	<field name="loodp_val" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="loodp_val"/>
+		<fieldDescription><![CDATA[loodp_val]]></fieldDescription>
+	</field>
+	<field name="addon_val" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="addon_val"/>
+		<fieldDescription><![CDATA[addon_val]]></fieldDescription>
+	</field>
+	<field name="producer_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="producer_name"/>
+		<fieldDescription><![CDATA[producer_name]]></fieldDescription>
+	</field>
+	<field name="producer_mobile" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="producer_mobile"/>
+		<fieldDescription><![CDATA[producer_mobile]]></fieldDescription>
+	</field>
+	<field name="producer_email" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="producer_email"/>
+		<fieldDescription><![CDATA[producer_email]]></fieldDescription>
+	</field>
+	<field name="elec_acc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="elec_acc"/>
+		<fieldDescription><![CDATA[elec_acc]]></fieldDescription>
+	</field>
+	<field name="non_elec_acc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="non_elec_acc"/>
+		<fieldDescription><![CDATA[non_elec_acc]]></fieldDescription>
+	</field>
+	<field name="company_logo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="company_logo"/>
+		<fieldDescription><![CDATA[company_logo]]></fieldDescription>
+	</field>
+	<field name="cb1" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb1"/>
+		<fieldDescription><![CDATA[cb1]]></fieldDescription>
+	</field>
+	<field name="cb2" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb2"/>
+		<fieldDescription><![CDATA[cb2]]></fieldDescription>
+	</field>
+	<field name="cb3" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb3"/>
+		<fieldDescription><![CDATA[cb3]]></fieldDescription>
+	</field>
+	<field name="cb4" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb4"/>
+		<fieldDescription><![CDATA[cb4]]></fieldDescription>
+	</field>
+	<field name="cb5" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb5"/>
+		<fieldDescription><![CDATA[cb5]]></fieldDescription>
+	</field>
+	<field name="cb6" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb6"/>
+		<fieldDescription><![CDATA[cb6]]></fieldDescription>
+	</field>
+	<field name="cb7" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb7"/>
+		<fieldDescription><![CDATA[cb7]]></fieldDescription>
+	</field>
+	<field name="cb8" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb8"/>
+		<fieldDescription><![CDATA[cb8]]></fieldDescription>
+	</field>
+	<field name="cb9" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb9"/>
+		<fieldDescription><![CDATA[cb9]]></fieldDescription>
+	</field>
+	<field name="cb10" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb10"/>
+		<fieldDescription><![CDATA[cb10]]></fieldDescription>
+	</field>
+	<field name="cb11" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb11"/>
+		<fieldDescription><![CDATA[cb11]]></fieldDescription>
+	</field>
+	<field name="cb12" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb12"/>
+		<fieldDescription><![CDATA[cb12]]></fieldDescription>
+	</field>
+	<field name="cb13" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb13"/>
+		<fieldDescription><![CDATA[cb13]]></fieldDescription>
+	</field>
+	<field name="cb14" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb14"/>
+		<fieldDescription><![CDATA[cb14]]></fieldDescription>
+	</field>
+	<field name="cb15" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb15"/>
+		<fieldDescription><![CDATA[cb15]]></fieldDescription>
+	</field>
+	<field name="cb16" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cb16"/>
+		<fieldDescription><![CDATA[cb16]]></fieldDescription>
+	</field>
+	<field name="total_idv" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="total_idv"/>
+		<fieldDescription><![CDATA[total_idv]]></fieldDescription>
+	</field>
+	<field name="yom_selected" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="yom_selected"/>
+		<fieldDescription><![CDATA[yom_selected]]></fieldDescription>
+	</field>
+	<variable name="company_name" class="java.lang.String"/>
+	<pageHeader>
+		<band height="427" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="10" y="98" width="534" height="25" forecolor="#4472C4" uuid="4c1317c3-2085-43da-82e3-353ecd19b772">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="18" isBold="false" isItalic="false" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{company_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="139" width="534" height="18" forecolor="#4472C4" uuid="dde34094-7449-489c-ae0d-608fcf473034">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Serif" size="14" isBold="true" isItalic="false" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["TWO WHEELER PASSENGER CARRYING POLICY QUOTE"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="199" width="535" height="57" uuid="807f29a0-dfff-465c-a670-22ba3bd23024"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Thank you for giving us the opportunities to Quote. Please read the quotation, and Kindly give us an appointment for your further Queries, Clarifications or any doubts do get back to us at below mentioned contact number."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="280" width="535" height="27" uuid="a8df4cee-73d2-4291-8372-126fe04cd7d1"/>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Thanking You and assuring of our best services."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="325" width="535" height="27" uuid="3f81fad1-ccc3-41ef-b486-dc15d6742652"/>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Thanks & Regards,"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="352" width="535" height="23" forecolor="#0070C0" uuid="59e7463d-8276-45ee-91b6-3963c320f0d0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{producer_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="375" width="535" height="23" uuid="f2677efd-34b2-4870-8b75-72eadb962680">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{producer_mobile}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="399" width="535" height="23" uuid="359fde7a-2171-4deb-97c9-d625df1c9d34">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{producer_email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="256" width="535" height="30" uuid="a934f0c3-1dd6-4f4a-9e1a-c77f1b1f9b12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="11" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Hoping to work with you in the time to come."]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="0" width="555" height="1" uuid="dd487076-dd4e-4d9f-888c-99cee064d126">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="0" width="1" height="427" uuid="93ddfc3e-d862-4f3e-9c62-4bf450fa7fa0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="555" y="0" width="1" height="427" uuid="3baccd3f-487e-4b32-822c-55bbf6f845a9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<image>
+				<reportElement x="430" y="10" width="112" height="67" uuid="fd6f94a4-c943-47af-a57c-41b454681296">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{company_logo}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="10" y="176" width="405" height="18" forecolor="#4472C4" uuid="60ef94c3-1cdb-4574-b920-ff0095361dd4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="13" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Dear,"+" "+$F{customername}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="375" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="13" width="534" height="20" forecolor="#4472C4" uuid="159b1dd1-f1cd-4f8f-881c-095271e20876">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Serif" size="14" isBold="true" isItalic="false" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["VEHICLE DETAILS"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="0" width="1" height="375" uuid="a9976bd8-0e22-4b99-b440-15a65a5db42d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="555" y="0" width="1" height="375" uuid="bb0f1107-c396-4926-9356-719958622e97">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<rectangle>
+				<reportElement x="10" y="34" width="533" height="120" uuid="21ff42a7-8b0c-42c4-95e0-841fe2c03122"/>
+			</rectangle>
+			<line>
+				<reportElement x="10" y="77" width="532" height="1" uuid="bb56ae42-b928-4c60-9a32-40f653a376bc"/>
+			</line>
+			<line>
+				<reportElement x="95" y="34" width="1" height="120" uuid="6840958b-cb99-4423-947e-527f514c9f8b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="186" y="34" width="1" height="120" uuid="be83b2f3-ca00-46d7-994d-bc48b029cfbc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="330" y="34" width="1" height="120" uuid="fe100223-15a8-4310-9581-50b4b76c5d4f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="390" y="34" width="1" height="120" uuid="bda12df7-e07a-4b02-bfed-cf42120b7b16">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="475" y="34" width="1" height="120" uuid="aab56c15-1ddc-4a47-8f9a-52662b5e506c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="10" y="35" width="85" height="35" forecolor="#2F5496" uuid="4b509455-ea53-4a70-ace8-0041e89b564b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Registration Number]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="35" width="90" height="35" forecolor="#2F5496" uuid="ac0f0e9b-a7db-4569-863d-e9db992eae05">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Vehicle Make]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="187" y="35" width="143" height="35" forecolor="#2F5496" uuid="ba56c8a3-3bf3-4e85-94c5-17343fa46ac5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Vehicle Model]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="35" width="50" height="35" forecolor="#2F5496" uuid="9480d582-a2f8-4813-a073-dde09cd5133f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Cubic Capacity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="395" y="35" width="75" height="35" forecolor="#2F5496" uuid="3342566d-f4db-4bf2-9255-ff0b5fb79722">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Year of Manufacture]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="479" y="35" width="60" height="35" forecolor="#2F5496" uuid="f2cd59fb-4d90-4a5c-a982-ae5dbf422f8a">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Seating Capacity]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="10" y="168" width="534" height="20" forecolor="#4472C4" uuid="46404cbf-0f21-4f52-a1b3-e42f4e53f26c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Serif" size="14" isBold="true" isItalic="false" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SUM INSURED DETAILS"]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="11" y="189" width="533" height="70" uuid="c5f195df-66ba-4a76-ac7c-edc53b30bca2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<line>
+				<reportElement x="11" y="229" width="532" height="1" uuid="2ba8e8f0-d2d1-4669-a5dd-24b9eea58c27"/>
+			</line>
+			<line>
+				<reportElement x="108" y="189" width="1" height="70" uuid="8c692295-ca95-42bf-acc0-8922c1529e93">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="189" y="189" width="1" height="70" uuid="73ec8784-0099-4862-b63d-3968473d2e43">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="270" y="189" width="1" height="70" uuid="b4df0e30-166b-42e9-a054-64ee88bb265e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="343" y="189" width="1" height="70" uuid="04c5ee80-6425-46e3-b12c-2ea830476195">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="453" y="189" width="1" height="70" uuid="fb2d5565-ada3-4184-8b60-a21d7738fd2a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="15" y="190" width="90" height="35" forecolor="#2F5496" uuid="0cd0b702-bf94-4334-b710-ed937ef3db1a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Vehicle IDV]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="190" width="80" height="35" forecolor="#2F5496" uuid="d561f795-10d6-4320-8289-f9f1d54ed0b4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Electrical Accessories]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="191" y="190" width="77" height="35" forecolor="#2F5496" uuid="4052aecc-06ab-48a2-83f9-610be0fd8ee9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Non-Elect. Accessories]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="277" y="190" width="60" height="35" forecolor="#2F5496" uuid="8c1d0b8a-4eec-4a57-984e-1f5d60094e60">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[CNG/LPG IDV]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="348" y="190" width="101" height="35" forecolor="#2F5496" uuid="688570f6-8898-4a9e-b79f-0944850a8441">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Total IDV]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="452" y="190" width="40" height="35" forecolor="#2F5496" uuid="5fa9c835-7549-43c1-926a-1f4d9f50433c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Zone]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="492" y="190" width="53" height="35" forecolor="#2F5496" uuid="b071206e-f942-4788-bacd-c3cce6a3eb18">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[NCB (%)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="491" y="189" width="1" height="70" uuid="c8d65b2a-e42c-41e3-b95f-93ac2205730c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="11" y="272" width="534" height="20" forecolor="#4472C4" uuid="8ff282e9-cb38-46a4-9721-4238b121f4c2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Serif" size="14" isBold="true" isItalic="false" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PERIOD OF INSURANCE DETAILS"]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="12" y="293" width="533" height="70" uuid="88016c50-9ca7-4b52-b188-70c778045bf5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<line>
+				<reportElement x="12" y="329" width="532" height="1" uuid="fd56c92b-23d5-42ef-ad96-37c99ab6cf57"/>
+			</line>
+			<line>
+				<reportElement x="158" y="293" width="1" height="70" uuid="36002a8e-07c6-44d4-a632-7d6a536796bc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="357" y="293" width="1" height="70" uuid="c64bf0ad-027b-4414-9e0e-ad31f6013368">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="16" y="294" width="140" height="35" forecolor="#2F5496" uuid="c699e778-5ab2-4ef3-9a2e-13818e3e408c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Policy Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="164" y="294" width="189" height="35" forecolor="#2F5496" uuid="c27f76d8-1d93-470b-b8f9-34a573479bfa">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Period of Insurance]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="361" y="294" width="90" height="35" forecolor="#2F5496" uuid="c8a51962-580c-471c-81ce-7447db4c8452">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[OD Term (in Years)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="459" y="294" width="85" height="35" forecolor="#2F5496" uuid="fb2a9fdf-d9f1-4948-b023-31daac149c5e">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[TP Term (in Years)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="456" y="293" width="1" height="70" uuid="2ac86c9f-8ca0-4888-8a92-e450f0b0a2eb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="1" y="374" width="555" height="1" uuid="b2b2c745-8173-42a5-824a-1b2760783854">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="10" y="81" width="85" height="25" uuid="9d473f8f-0b4e-4f91-8fc3-ba4e36a0b3be">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{u_reg_no}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="96" y="81" width="90" height="71" uuid="665ccb21-6d46-45b0-94e4-9cda62b94880">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{u_make}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="187" y="81" width="143" height="71" uuid="236834e6-2501-48fd-92d7-e3ecd9f4e1a0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{u_model}+ "-" +$F{u_variant}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="335" y="81" width="50" height="25" uuid="bd02ae72-d551-4553-a851-cb20240d8bbd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="81" width="75" height="25" uuid="98c7d210-2669-4ec1-b8ba-51e48606b7ca">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{yom}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="81" width="58" height="25" uuid="57e0d435-f0b6-426c-8d23-ccb22f6ef8bf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{u_sc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="15" y="230" width="90" height="25" uuid="256e0e2e-84db-495b-8f30-aff12ae86249">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{idv}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="108" y="230" width="80" height="25" uuid="76b5bc99-dd3d-410b-b9e1-382c1a5f1154">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{elec_acc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="230" width="80" height="25" uuid="a7f59782-d470-4cfa-9f6d-0231a9ab603c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{non_elec_acc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="272" y="230" width="69" height="25" uuid="3e4a7cea-24d4-44a0-97e3-2128fece5ef7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{extcng}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;¤-#,##0.00">
+				<reportElement x="348" y="230" width="101" height="25" uuid="6fb6fe86-42ed-4ee3-93a9-8decebc19786">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_idv}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="454" y="230" width="36" height="25" uuid="4752c758-bc3e-41be-8e3a-1560af5e8b23">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{zone}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.##;¤-#,##0.##">
+				<reportElement x="500" y="229" width="36" height="25" uuid="a2b6c16f-4b41-4557-aefe-7fcfee152567">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Double.parseDouble($F{ncb_per})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="16" y="334" width="140" height="25" uuid="94f232ee-cdb6-47be-a4f8-cca5066ad66e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{policy_type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="164" y="334" width="189" height="25" uuid="4522712d-9a55-484a-9770-0744a86b9617">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{u_psd}+"  to  "+$F{u_ped}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="361" y="334" width="91" height="25" uuid="e4a43556-0290-46dc-9140-332cef76429b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement x="459" y="334" width="85" height="25" uuid="3c14aee9-e8c3-4223-9cf0-e56fd93b89be">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+			</textField>
+		</band>
+	</columnHeader>
+</jasperReport>
