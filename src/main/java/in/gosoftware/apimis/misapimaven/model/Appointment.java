@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-@Document(collection = "appointmnet")
+@Document(collection = "appointmnets")
 public class Appointment {
 	
 	@Id
